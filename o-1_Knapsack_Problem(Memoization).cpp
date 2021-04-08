@@ -42,13 +42,13 @@ int knapsack(int val[], int wt[], int capacity, int n)
 
 int main()
 {
-    int val[4]={1,4,5,7};
-    int wt[4]={1,3,4,5};
+    int val[7]={10,4,5,7,8,9,10};
+    int wt[7]={1,3,4,1,3,2,5};
     int capacity=10;
     memset();
 
     cout<<"Given weights and values are: ";
-    for (int i=0;i<4;i++)
+    for (int i=0;i<7;i++)
     {
         cout<<"("<<wt[i]<<","<<val[i]<< ") ";
     }
@@ -56,8 +56,17 @@ int main()
 
 
     cout<<"Maximum Value that can be generated putting chunk of weight into the bag in range of it's capacity: ";
-    int ans=knapsack(val, wt, capacity, 4);
+    int ans=knapsack(val, wt, capacity, 7);
     cout<<ans<<endl;
+    for (int i=0;i<10;i++)
+    {
+        for (int j=0;j<10;j++)
+        {
+            cout<<setw(10)<<mat[i][j]<<" ";
+        }
+        cout<<endl;
+
+    }
 
 
 }
