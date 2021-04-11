@@ -59,18 +59,4 @@ int main()
     cout<<"Longest common subseq: "<<subseq;
 
 }
-    /*cout<<"Length of longest common subsequence: "<<mat[x.size()][y.size()]<<endl;
-    cout<<"Tabular matrix: "<<endl;
-    for (int i=0;i<=x.size();i++)
-    {
-        for (int j=0;j<=y.size();j++)
-        {
-            cout<<setw(6)<<mat[i][j]<<" ";
-
-        }
-        cout<<endl;
-    }
-    */
-
-
-
+    
